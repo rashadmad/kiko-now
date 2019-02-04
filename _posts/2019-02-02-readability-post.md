@@ -24,7 +24,7 @@ Furthermore, The people I see gaining the most from this blog are:
 
 ## I Love Jekyll When It Comes To Blogging
 
-![image-title-here](/images/jekyll-logo.png){:class="blog-img "}
+![image-title-here](/rashads_blog/images/jekyll-logo.png){:class="blog-img "}
 
 I built this blog in Jekyll and so far I am enjoying my experience. I don't want to speak ill of other popular frameworks like Wordpress. But I feel that it can be quite bloated and slow. Wordpress has been around for a long time and can at times feel that way (_OLD_).
 
