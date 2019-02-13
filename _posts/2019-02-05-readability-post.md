@@ -4,7 +4,7 @@ title: "Jekyll Blog Development Diary Prologue"
 tags: [Jekyll, Development-Diary, Blog-Development, Web-Design, Business]
 comments: true
 ---
-![I love my blog](https://media.giphy.com/media/UVqPbnRA3vjOw/giphy.gif){: .center}
+![I love my blog](https://media.giphy.com/media/UVqPbnRA3vjOw/giphy.gif)
 Development diary 1: Kelly's health blog
 
 So I stated in my last post that I was going to go over how Jekyll works. I was thinking a tutorial would be my best bet. But after watching [Mike Dane's Tutorials](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB) I think if you want a "How to" on Jekyll he does a great job. For these blog posts I instead want to focus on the experience that I have using Jekyll as a tool to solve a problem. The problem being developing a [squeeze page](https://en.wikipedia.org/wiki/Squeeze_page) / [Blog](https://en.wikipedia.org/wiki/Blog) for a client. This will be the first part of multiple post on the on my experience:
