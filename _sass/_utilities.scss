@@ -1,0 +1,11 @@
+%centerHolder {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: none;
+}
+
+.center {
+  @extend %centerHolder;
+}
