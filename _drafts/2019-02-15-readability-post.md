@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ruby on Rails: CRUD part-1
-tags: [Blog, CRUD, MVC, Ruby, Ruby-on-Rails, Developer-diary]
+title: "Ruby on Rails: starter project part-1"
+tags: [Blog, CRUD, Ruby, Ruby-on-Rails, Tutorial]
 comments: true
 ---
 
@@ -51,7 +51,7 @@ In twitter you
 * _Update_ (Twitter purposely does not allow you to edit your tweets. Just think if you retweet something nice and it was edited to be something mean that would suck)
 * _Delete_ (Often people want to destroy the things that they create when they are not proud of it)
 
-![rick and morty delete gif](https://media.giphy.com/media/i8fBOzO0v8hNK/giphy.gif)  
+![rick and morty delete gif](https://media.giphy.com/media/xULW8N9O5WD32L5052/giphy.gif)  
 
 I wont be creating a twitter clone, instead something more inline to the other things in this blog... a blog
 
@@ -143,10 +143,35 @@ $ rails s
 ```
 
 oooh by chance did you get an error page.
-![rick and morty delete gif](https://media.giphy.com/media/1USKMDPjuH4ovL7J5h/giphy.gif)
+
+![rick and morty delete gif](https://media.giphy.com/media/TqiwHbFBaZ4ti/giphy.gif)
 
 no biggie we just need to run a the migration to create the table.
 
 ```
 $ rails db:migrate
 ```
+Now things should be back working agin check by starting up the server. Also now we should have post up and running as well check this by putting in this url to your browser.
+
+```
+http://localhost:3000/posts
+```
+You see what we did there. we added posts to the end of our url. So if we generate another resource in this fashion we can get to it in the same fashion.
+
+![rick and morty delete gif](https://media.giphy.com/media/l41JU9pUyosHzWyuQ/giphy.gif)
+
+We don't have a post created yet. Lets do that by clicking the new post link.
+<img src="/images/posts.png" alt="post screen" />
+Name the post anything that you like.
+
+this is an opportunity for you to to pay around with _crud_ so create a few blog post, read them change them and delete them get your crud on.
+
+Alright so your probably feeling jazzed about the new power you have. You can....
+* create a rails app.
+* create a resource.
+* create attributes to said resource.
+* and finally make CRUD changes to that resource that our non-coding buddies can enjoy
+
+That sums up our post. I will be doing a part two deep dive breaking down what we really did and give you a deeper understanding of what scaffolding hides.
+
+Thanks for following along.
