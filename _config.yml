@@ -28,6 +28,8 @@ navigation:
     url: /archive
   - name: Tags
     url: /tags
+  - name: policy
+    url: /policy
 
 # Pagination
 paginate: 5

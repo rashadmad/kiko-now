@@ -3,6 +3,7 @@ layout: post
 title: "My First Blog Ever | made with Jekyll"
 tags: [intro, new year's resolutions, get to know me]
 comments: true
+# other options
 ---
 
 ![image-title-here](https://media.giphy.com/media/3o6MbeNmzImGT6YOgU/giphy.gif){

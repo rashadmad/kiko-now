@@ -3,6 +3,7 @@ layout: post
 title: "Jekyll Blog Development Diary Prologue"
 tags: [Jekyll, Development-Diary, Blog-Development, Web-Design, Business]
 comments: true
+# other options
 ---
 ![I love my blog](https://media.giphy.com/media/UVqPbnRA3vjOw/giphy.gif)
 Development diary 1: Kelly's health blog
