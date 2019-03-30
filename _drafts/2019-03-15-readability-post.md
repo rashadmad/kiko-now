@@ -153,4 +153,4 @@ Basically that sums up the relationship between the:
 * View
 * Controller
 
-Now You know whats going on beind the scenes when you generate that scaffold.
+Now You know whats going on behind the scenes when you generate that scaffold.
