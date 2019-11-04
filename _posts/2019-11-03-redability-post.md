@@ -8,14 +8,14 @@ comments: true
 
 ![out-reachy-internship](https://pbs.twimg.com/profile_images/561419803202568194/Pjk5iqNn.png)
 
-# My experience as an applicant to the Outreachy internship programe **Part-One**
+# My experience as an applicant to the Outreachy internship program **Part-One**
 Synopsis of my experience as a Outreachy applicant: **I made it to the contribution period**
 
 ## What is Outreachy
 
 [Click this to go to the outrechy website](https://www.outreachy.org/).
 ____
-*Outreachy is a paid, remote internship program.* *Outreachy's goal is to support people from groups underrepresented in tech. We help newcomers to free software and open source make their first contributions.*
+*Outreachy is a paid, remote internship program. Outreachy's goal is to support people from groups underrepresented in tech. We help newcomers to free software and open source make their first contributions.*
 
 *Outreachy provides internships to work open source. People apply from all around the world. Interns work remotely, and are not required to move. Interns are paid a stipend of $5,500 USD for the three month internship. Interns have a $500 USD travel stipend to attend conferences or events.*
 
