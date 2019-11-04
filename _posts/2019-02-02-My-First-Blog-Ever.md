@@ -6,7 +6,7 @@ comments: true
 # other options
 ---
 
-![image-title-here](https://media.giphy.com/media/3o6MbeNmzImGT6YOgU/giphy.gif){
+![image-title-here](https://media.giphy.com/media/3o6MbeNmzImGT6YOgU/giphy.gif)
 Introducing Rashads Development Blog
 
 Hello all, My name is Rashad and I am a young front-end developer who is looking to break in-to web development industry. This blog will be a way for me to chart my experiences on my mission to find gainful employment. Also I have felt really selfish over the years using a ton of tutorials and not making any. As a new year's resolution I plan to make at least a few before the year is out. To get to know me visit my [about](/about) page

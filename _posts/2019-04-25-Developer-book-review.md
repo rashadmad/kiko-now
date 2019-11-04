@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Developer book review"
+title: "Developer book review A mind for number show to excel at math and science"
 tags: [self-help, book review, a mind for numbers how to excel at math and science]
 comments: true
 # other options
