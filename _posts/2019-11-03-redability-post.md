@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Outreachy Internship Application"
+title: "Outreachy Internship Application Part-One"
 tags: [Outreachy, Frontend Webdevloper, Internship, Open Source]
 comments: true
 # other options
