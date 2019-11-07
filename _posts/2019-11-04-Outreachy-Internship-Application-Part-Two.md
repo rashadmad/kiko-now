@@ -6,61 +6,60 @@ comments: true
 # other options
 ---
 
-![out-reachy-internship](https://pbs.twimg.com/profile_images/561419803202568194/Pjk5iqNn.png)
+![out-reachy-internship](https://user-images.githubusercontent.com/5515036/67452604-5b551b00-f5e9-11e9-8c33-c230c94aff7d.png)
 
 # My experience as an applicant to the Outreachy internship program **Part-Two**
 Synopsis of my experience as a Outreachy applicant: **Beginning work on double range slider component in vue.js**
 
 ## What is a double range slider
 
-![Click this to go to the outrechy website](https://i1.wp.com/www.cssscript.com/wp-content/uploads/2016/06/multirange.png?zoom=2&fit=474%2C351&ssl=1).
+![Click this to go to the outrechy website](https://i1.wp.com/www.cssscript.com/wp-content/uploads/2016/06/multirange.png?zoom=2&fit=474%2C351&ssl=1)
+
+### First lets talk about a regular range slider
+
+Depending on your experience on the web I am sure you have used a range slider. Range sliders have degrees of options. These are great for changing the volume in a music app, or choosing the price for a product and anything that requires the increase or decrease of a value. Also range sliders just feel good to use, I mean they definitely beat just putting in a number value in.
+
+This is an example of a range slider here.
+
+![range slider](https://forums.tumult.com/uploads/db2156/original/2X/6/612cfae4c6a0348dab0d271162bbd072bf2ade8c.png)
+
+## How should I go about this
+
+my goal is to create a double range slider. The big difference here is that there is no native solution for a double range slider out of the box in HTML. There are solutions in jQuery and other plugins though. I usually look to create things with HTML/CSS and vanilla JavaScript. Which means allot of hacking.
+
+I decided to take a look at the project specifications, seeing as I was new to Vue.js
+I was thinking instead of relying on JQuery or a plugin it may be better to lean on Vue. While looking through the project trying to find the best solution I found this in a readme file:
+
+> Elements are nothing but relatively simpler Vue components and consequently live 
+in eponymous folders containing `Element.vue`, `Element.md` and `Element.styl` 
+files. Elements never bundle translations.
+Elements may not import other elements, because that would violate the atomicity
+principle.
+
+After, reading this it sounded like going the vanilla JavaScript direction was the right way to go. So it seems that I went the right route in making my component entirely independent. The term "atomicity principle" caught me off guard, so I googled it and found this beautifully designed article by [brad frost](https://bradfrost.com/blog/post/atomic-web-design/). The gist of atomic design is that when it comes to creating design system there are five different levels: 
+
+1. **Atoms** - *Exp: Color, text, shapes*
+2. **Molecules** - *Exp: Buttons, Input fields*
+3. **Organisms** - *Exp: Forms, Headers, footers*
+4. **Templates** - *Exp: Wireframe, prototype*
+5. **Pages** - *Exp: About page, Profile page etc..*
 ____
-*Outreachy is a paid, remote internship program. Outreachy's goal is to support people from groups underrepresented in tech. We help newcomers to free software and open source make their first contributions.*
+To make a long story short the idea is to create modular components "atoms"  that combine to create collections of "Molecules". Here is an example of this: 
+let's say a users wants to buy a home on real estate site. That user wants to search for a home in a specific price range. They could use my double range slider to input that minimum and maximum amount they are willing to spend. Furthermore, its very unlikely that a person wants to buy a house just for its price. They may also want a input field where they can search for the location of the home they want to buy. 
 
-*Outreachy provides internships to work open source. People apply from all around the world. Interns work remotely, and are not required to move. Interns are paid a stipend of $5,500 USD for the three month internship. Interns have a $500 USD travel stipend to attend conferences or events.*
+>![atomicity principle](https://bradfrost.com/wp-content/uploads/2013/06/atomic-design.png)
 
-*Interns work with experienced mentors from open source communities. Outreachy internship projects may include programming, user experience, documentation, illustration, graphical design, or data science. Interns often find employment after their internship with Outreachy sponsors or in jobs that use the skills they learned during their internship.*
-
-*Outreachy expressly invites applicants who are women (both cis and trans), trans men, and genderqueer people to apply. We also expressly invite applications who are residents and nationals of the United States of America of any gender who are Black/African American, Hispanic/Latin@, Native American/American Indian, Alaska Native, Native Hawaiian, or Pacific Islander. Anyone who faces systemic bias or discrimination in the technology industry of their country is invited to apply.*
+They may also want to search by how many bedrooms there are in the home which can be completed with a few radio buttons. The input field, radio buttons and the double range sliders are all examples of **elements** or molecules. All of these in combination will form a **organism**. This organism would be called a form. I can go over the other levels of the hierarchy some other time but you should get the gist of **atomicity principle**.
 ____
-## Why I Decided To Apply
-I consider my self a unique person to say the least. My experience as a developer definitely shows that. I did not get a computer science degree nor did I participate in a bootcamp. I have gone the non-traditional route and outreachy seems very much like a non-traditional internship. Also from my experience networking and meeting people in the development world I often feel like an oddball.
 
-![Creative-commons-logo](https://upload.wikimedia.org/wikipedia/commons/4/4d/Creative_commons.jpg)
-____
-### Contributing To Creative Commons Project
+so with that out of the way, the big take away here is that I am not just creating a component I am creating *"element"*. *elements* can consist of *atoms* so furthermore my slider can have a color or a z-index property but still making this element as Independent as possible is very important for the atomicity principles. So I should avoid Jquery plugins.
 
-For the outreachy application I had to choose an open source project to contribute to. I really wanted to do something that involved frontend development. I choose this project.
+Thant means there will be allotof hacks. Furthermore I will get into how I solve the problem with code in the next chapter but here is a preview. Of what I got going in Vue.js
 
-#### Intro to the Vocabulary project
-![project](/images/outReachyProject.png)
+![range slider giff](https://user-images.githubusercontent.com/5515036/67452817-1087d300-f5ea-11e9-8bf2-534cc85c1094.gif)
 
-## Why I Picked This Project
-I decided to work on this project because it mentioned vue.js experience. It is at a "2" which gives me the opportunity to learn vue.js while working which sounded great. I had plenty of experience with JavaScript and english also is not an issue for me. 
 
-I saw this project as an opportunity to learn a frontend framework and also get some open source experience.
 
-![project](https://raw.githubusercontent.com/creativecommons/cc-vocabulary/master/readme_assets/vocabulary_logo.svg?sanitize=true)
-
-### First Time Working On A Design System
-____
-*Vocabulary is a cohesive design system to unite the web facing Creative Commons. Vocabulary makes it easier to develop Creative Commons apps while ensuring a consistently familiar experience.*
-
-I have worked on a few websites and some applications but never a design system. I have had interest in them for years now. I just love the idea of createing modular solutions ahead of time and bringing thoses solutions together to create applications. 
-
-## Excited To Take On A New Challenge
-
-After fumbling around in the issues section attempting a few issues that were over my head I settled upon createing double range slider.
-
-[click here to view the issues section for the vocabulary](https://github.com/creativecommons/cc-vocabulary/issues)
-
-### Double Range Slider
-
-So the task I have at hand is to create a double range slider component with the Vue.js framework.
-
-#### To be continued 
-
-I will go in to more detail about my work on the slider an my experience in my next blog post.
 
 
 
